@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace Warehouse_Service.Repositories
+namespace Microshoppy.Warehouse.Repositories
 {
 	public class InMemoryWarehouseRepository : IWarehouseRepository
 	{

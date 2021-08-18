@@ -4,10 +4,10 @@ using System.Threading.Tasks;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
-using Warehouse_Service.CQRS.Command;
-using Warehouse_Service.CQRS.Query;
+using Microshoppy.Warehouse.CQRS.Command;
+using Microshoppy.Warehouse.CQRS.Query;
 
-namespace Warehouse_Service.Controllers
+namespace Microshoppy.Warehouse.Controllers
 {
     [ApiController]
     [Route("[controller]")]

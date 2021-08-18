@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace Warehouse_Service.Repositories
+namespace Microshoppy.Warehouse.Repositories
 {
 	public interface IWarehouseRepository
 	{

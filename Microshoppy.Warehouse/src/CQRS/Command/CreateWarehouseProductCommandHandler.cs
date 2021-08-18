@@ -1,9 +1,9 @@
 ﻿using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using Warehouse_Service.Repositories;
+using Microshoppy.Warehouse.Repositories;
 
-namespace Warehouse_Service.CQRS.Command
+namespace Microshoppy.Warehouse.CQRS.Command
 {
 	public class CreateWarehouseProductCommandHandler : Handler, IRequestHandler<CreateWarehouseProductCommand, Unit>
 	{

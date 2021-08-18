@@ -2,9 +2,9 @@
 using System.Threading;
 using System.Threading.Tasks;
 using MediatR;
-using Warehouse_Service.Repositories;
+using Microshoppy.Warehouse.Repositories;
 
-namespace Warehouse_Service.CQRS.Query
+namespace Microshoppy.Warehouse.CQRS.Query
 {
 	public class ReadWarehouseProductsQueryHandler : IRequestHandler<ReadWarehouseProductsQuery, IEnumerable<WarehouseProduct>>
 	{

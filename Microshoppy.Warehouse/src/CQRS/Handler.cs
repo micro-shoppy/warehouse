@@ -1,6 +1,6 @@
-﻿using Warehouse_Service.Repositories;
+﻿using Microshoppy.Warehouse.Repositories;
 
-namespace Warehouse_Service.CQRS
+namespace Microshoppy.Warehouse.CQRS
 {
 	public class Handler
 	{

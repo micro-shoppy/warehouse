@@ -1,7 +1,7 @@
 ﻿using System;
 using MediatR;
 
-namespace Warehouse_Service.CQRS.Command
+namespace Microshoppy.Warehouse.CQRS.Command
 {
 	public class DeleteWarehouseProductCommand : IRequest<Unit>
 	{

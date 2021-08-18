@@ -1,6 +1,6 @@
 using System;
 
-namespace Warehouse_Service
+namespace Microshoppy.Warehouse
 {
 	public class WarehouseProduct
 	{

@@ -5,10 +5,10 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MediatR;
-using Warehouse_Service.CQRS.Command;
-using Warehouse_Service.Repositories;
+using Microshoppy.Warehouse.CQRS.Command;
+using Microshoppy.Warehouse.Repositories;
 
-namespace Warehouse_Service
+namespace Microshoppy.Warehouse
 {
 	public class Startup
 	{

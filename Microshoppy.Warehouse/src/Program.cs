@@ -1,7 +1,7 @@
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Hosting;
 
-namespace Warehouse_Service
+namespace Microshoppy.Warehouse
 {
 	public class Program
 	{

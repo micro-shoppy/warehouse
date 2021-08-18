@@ -5,9 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.OpenApi.Models;
 using MediatR;
-using Warehouse_Service.CQRS;
 using Warehouse_Service.CQRS.Command;
-using Warehouse_Service.CQRS.Query;
 using Warehouse_Service.Repositories;
 
 namespace Warehouse_Service
